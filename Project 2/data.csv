@@ -1,0 +1,88 @@
+b_id,b_title,b_author,u_id,u_name,b_u_rating
+1,The Hunger Games 1,Suzanne Collins,1,Ava,4
+1,The Hunger Games 1,Suzanne Collins,2,Mason,4
+1,The Hunger Games 1,Suzanne Collins,3,Charlotte,5
+2,The Hunger Games 2,Suzanne Collins,4,Sophia,3
+3,Harry Potter and the Deathly Hallows,J.K. Rowling,5,Emily,4
+3,Harry Potter and the Deathly Hallows,J.K. Rowling,6,Jacob,4
+4,Harry Potter and the Sorcerer¡¯s Stone,J.K. Rowling,7,Aria,4
+5,Pride and Prejudice,Jane Austen,8,Elijah,1
+6,To Kill a Mockingbird,Harper Lee,9,Olivia,3
+6,To Kill a Mockingbird,Harper Lee,10,Harper,4
+7,The Book Thief,Markus Zusak,11,John,4
+7,The Book Thief,Markus Zusak,12,Wyatt,4
+8,Twilight,Stephenie Meyer,2,Mason,5
+9,Animal Farm,George Orwell,9,Olivia,3
+9,Animal Farm,George Orwell,13,Owen,4
+10,Ayla: The Daughter of War,Can Ulkay,14,Mateo,4
+10,Ayla: The Daughter of War,Can Ulkay,15,Ethan,4
+11,The Chronicles of Narnia,C.S. Lewis,16,Ellie,5
+12,The Fault in Our Stars,John Green,17,Noah,3
+12,The Fault in Our Stars,John Green,12,Wyatt,4
+12,The Fault in Our Stars,John Green,18,Sebastian,4
+13,The Picture of Dorian Gray,Oscar Wilde,17,Noah,4
+13,The Picture of Dorian Gray,Oscar Wilde,12,Wyatt,5
+14,The Giving Tree,Shel Silverstein,19,William,3
+15,Gone with the Wind,Margaret Mitchell,1,Ava,4
+16,The Perks of Being a Wallflower,Stephen Chbosky,20,Daniel,4
+16,The Perks of Being a Wallflower,Stephen Chbosky,18,Sebastian,4
+17,The Great Gatsby,F. Scott Fitzgerald,21,Abigail,5
+17,The Great Gatsby,F. Scott Fitzgerald,22,Mia,3
+17,The Great Gatsby,F. Scott Fitzgerald,23,Camila,4
+18,The Little Prince,Antoine,9,Olivia,4
+19,The Da Vinci Code,Dan Brown,21,Abigail,4
+20,Gladiator,Ridley Scott,24,Michael,5
+21,Alice¡¯s Adventures in Wonderland,Lewis Carroll,10,Harper,3
+21,Alice¡¯s Adventures in Wonderland,Lewis Carroll,25,Samuel,4
+22,Crime and Punishment,Fyodor Dostoevsky,6,Jacob,4
+23,Divergent,Veronica Roth,24,Michael,4
+24,Memoirs of a Geisha,Arthur Golden,26,Layla,5
+25,Les Miserables,Victor Hugo,27,Alexander,3
+25,Les Miserables,Victor Hugo,28,Joseph,4
+25,Les Miserables,Victor Hugo,29,Scarlett,4
+26,The Alchemist,Paulo Coelho,30,Nora,4
+26,The Alchemist,Paulo Coelho,20,Daniel,5
+27,Lord of the Flies,William Golding,2,Mason,3
+28,Romeo and Juliet,William Shakespeare,31,James,4
+28,Romeo and Juliet,William Shakespeare,32,Sofia,4
+29,Anne of Green Gables,L.M. Montgomery,1,Ava,4
+29,Anne of Green Gables,L.M. Montgomery,33,Elizabeth,5
+30,City of Bones,Cassandra Clare,26,Layla,3
+30,City of Bones,Cassandra Clare,2,Mason,4
+30,City of Bones,Cassandra Clare,14,Mateo,4
+31,The Help,Kathryn Stockett,22,Mia,4
+31,The Help,Kathryn Stockett,9,Olivia,5
+32,Dracula,Bram Stoker,15,Ethan,3
+33,Ender¡¯s Game,Orson Scott Card,34,Henry,4
+33,Ender¡¯s Game,Orson Scott Card,28,Joseph,4
+34,Charlotte¡¯s Web,E.B. White,35,Emma,4
+35,Of Mice and Men,John Steinbeck,29,Scarlett,5
+35,Of Mice and Men,John Steinbeck,36,Luna,3
+36,Fahrenheit 451,Ray Bradbury,37,Jackson,4
+37,The Catcher in the Rye,J.D. Salinger,4,Sophia,4
+37,The Catcher in the Rye,J.D. Salinger,38,Penelope,4
+38,Brave New World,Aldous Huxley,37,Jackson,5
+39,A Thousand Splendid Suns,Khaled Hosseini,23,Camila,3
+40,The Time Traveler¡¯s Wife,Audrey Niffenegger,7,Aria,4
+40,The Time Traveler¡¯s Wife,Audrey Niffenegger,33,Elizabeth,4
+40,The Time Traveler¡¯s Wife,Audrey Niffenegger,36,Luna,4
+41,The Princess Bride,William Goldman,7,Aria,5
+41,The Princess Bride,William Goldman,39,Hazel,3
+41,The Princess Bride,William Goldman,40,Mila,4
+42,The Secret Garden,Frances Hodgson Burnett,41,Evelyn,4
+43,A Game of Thrones,George R.R. Martin,37,Jackson,4
+44,Outsiders,S.E. Hinton,3,Charlotte,5
+45,Outsiders,Stephen King,42,Jack,3
+46,Little Women,Louisa May Alcott,34,Henry,4
+47,Little Women,Deanna McFadden,43,Madison,4
+47,Little Women,Deanna McFadden,44,Avery,4
+48,1984,George Orwell,45,Logan,5
+49,The Odyssey,Homer,23,Camila,3
+49,The Odyssey,Homer,13,Owen,4
+49,The Odyssey,Homer,46,Eleanor,4
+50,The Kite Runner,Khaled Hosseini,6,Jacob,4
+50,The Kite Runner,Khaled Hosseini,17,Noah,5
+51,The Giver,Lois Lowry,2,Mason,3
+52,The Lion King,Roger Allers,47,Aiden,4
+53,The Handmaid¡¯s Tale,Margaret Atwood,38,Penelope,4
+53,The Handmaid¡¯s Tale,Margaret Atwood,11,John,4

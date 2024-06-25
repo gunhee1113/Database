@@ -1,0 +1,912 @@
+-------------Test Case 1-------------
+Command    : initialize database
+Description: initialize database
+Result     :
+Database successfully initialized
+-------------Test Case 1 End-------------
+-------------Test Case 2-------------
+Command    : print all books
+Description: print all books
+Result     :
+--------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating quantity  
+--------------------------------------------------------------------------------------------------------------
+1     The Hunger Games 1                                 Suzanne Collins                4.3333     1         
+2     The Hunger Games 2                                 Suzanne Collins                3.0000     1         
+3     Harry Potter and the Deathly Hallows               J.K. Rowling                   4.0000     1         
+4     Harry Potter and the Sorcerer’s Stone              J.K. Rowling                   4.0000     1         
+5     Pride and Prejudice                                Jane Austen                    1.0000     1         
+6     To Kill a Mockingbird                              Harper Lee                     3.5000     1         
+7     The Book Thief                                     Markus Zusak                   4.0000     1         
+8     Twilight                                           Stephenie Meyer                5.0000     1         
+9     Animal Farm                                        George Orwell                  3.5000     1         
+10    Ayla: The Daughter of War                          Can Ulkay                      4.0000     1         
+11    The Chronicles of Narnia                           C.S. Lewis                     5.0000     1         
+12    The Fault in Our Stars                             John Green                     3.6667     1         
+13    The Picture of Dorian Gray                         Oscar Wilde                    4.5000     1         
+14    The Giving Tree                                    Shel Silverstein               3.0000     1         
+15    Gone with the Wind                                 Margaret Mitchell              4.0000     1         
+16    The Perks of Being a Wallflower                    Stephen Chbosky                4.0000     1         
+17    The Great Gatsby                                   F. Scott Fitzgerald            4.0000     1         
+18    The Little Prince                                  Antoine                        4.0000     1         
+19    The Da Vinci Code                                  Dan Brown                      4.0000     1         
+20    Gladiator                                          Ridley Scott                   5.0000     1         
+21    Alice’s Adventures in Wonderland                   Lewis Carroll                  3.5000     1         
+22    Crime and Punishment                               Fyodor Dostoevsky              4.0000     1         
+23    Divergent                                          Veronica Roth                  4.0000     1         
+24    Memoirs of a Geisha                                Arthur Golden                  5.0000     1         
+25    Les Miserables                                     Victor Hugo                    3.6667     1         
+26    The Alchemist                                      Paulo Coelho                   4.5000     1         
+27    Lord of the Flies                                  William Golding                3.0000     1         
+28    Romeo and Juliet                                   William Shakespeare            4.0000     1         
+29    Anne of Green Gables                               L.M. Montgomery                4.5000     1         
+30    City of Bones                                      Cassandra Clare                3.6667     1         
+31    The Help                                           Kathryn Stockett               4.5000     1         
+32    Dracula                                            Bram Stoker                    3.0000     1         
+33    Ender’s Game                                       Orson Scott Card               4.0000     1         
+34    Charlotte’s Web                                    E.B. White                     4.0000     1         
+35    Of Mice and Men                                    John Steinbeck                 4.0000     1         
+36    Fahrenheit 451                                     Ray Bradbury                   4.0000     1         
+37    The Catcher in the Rye                             J.D. Salinger                  4.0000     1         
+38    Brave New World                                    Aldous Huxley                  5.0000     1         
+39    A Thousand Splendid Suns                           Khaled Hosseini                3.0000     1         
+40    The Time Traveler’s Wife                           Audrey Niffenegger             4.0000     1         
+41    The Princess Bride                                 William Goldman                4.0000     1         
+42    The Secret Garden                                  Frances Hodgson Burnett        4.0000     1         
+43    A Game of Thrones                                  George R.R. Martin             4.0000     1         
+44    Outsiders                                          S.E. Hinton                    5.0000     1         
+45    Outsiders                                          Stephen King                   3.0000     1         
+46    Little Women                                       Louisa May Alcott              4.0000     1         
+47    Little Women                                       Deanna McFadden                4.0000     1         
+48    1984                                               George Orwell                  5.0000     1         
+49    The Odyssey                                        Homer                          3.6667     1         
+50    The Kite Runner                                    Khaled Hosseini                4.5000     1         
+51    The Giver                                          Lois Lowry                     3.0000     1         
+52    The Lion King                                      Roger Allers                   4.0000     1         
+53    The Handmaid’s Tale                                Margaret Atwood                4.0000     1         
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 2 End-------------
+-------------Test Case 3-------------
+Command    : print all users
+Description: print all users
+Result     :
+--------------------------------------------------------------------------------------------------------------
+id    name      
+--------------------------------------------------------------------------------------------------------------
+1     Ava       
+2     Mason     
+3     Charlotte 
+4     Sophia    
+5     Emily     
+6     Jacob     
+7     Aria      
+8     Elijah    
+9     Olivia    
+10    Harper    
+11    John      
+12    Wyatt     
+13    Owen      
+14    Mateo     
+15    Ethan     
+16    Ellie     
+17    Noah      
+18    Sebastian 
+19    William   
+20    Daniel    
+21    Abigail   
+22    Mia       
+23    Camila    
+24    Michael   
+25    Samuel    
+26    Layla     
+27    Alexander 
+28    Joseph    
+29    Scarlett  
+30    Nora      
+31    James     
+32    Sofia     
+33    Elizabeth 
+34    Henry     
+35    Emma      
+36    Luna      
+37    Jackson   
+38    Penelope  
+39    Hazel     
+40    Mila      
+41    Evelyn    
+42    Jack      
+43    Madison   
+44    Avery     
+45    Logan     
+46    Eleanor   
+47    Aiden     
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 3 End-------------
+-------------Test Case 4-------------
+Command    : insert a new book: title1, author1
+Description: insert a new book
+Result     :
+Book title: Book author: One book successfully inserted
+-------------Test Case 4 End-------------
+-------------Test Case 5-------------
+Command    : insert a new book: title2, author2
+Description: insert a new book
+Result     :
+Book title: Book author: One book successfully inserted
+-------------Test Case 5 End-------------
+-------------Test Case 6-------------
+Command    : insert a new book: title1, author1
+Description: insert a book with duplicate title and author
+Result     :
+Book title: Book author: Book (title1, author1) already exists
+-------------Test Case 6 End-------------
+-------------Test Case 7-------------
+Command    : insert a new book: title3, author3
+Description: insert a new book
+Result     :
+Book title: Book author: One book successfully inserted
+-------------Test Case 7 End-------------
+-------------Test Case 8-------------
+Command    : print all books
+Description: print all books
+Result     :
+--------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating quantity  
+--------------------------------------------------------------------------------------------------------------
+1     The Hunger Games 1                                 Suzanne Collins                4.3333     1         
+2     The Hunger Games 2                                 Suzanne Collins                3.0000     1         
+3     Harry Potter and the Deathly Hallows               J.K. Rowling                   4.0000     1         
+4     Harry Potter and the Sorcerer’s Stone              J.K. Rowling                   4.0000     1         
+5     Pride and Prejudice                                Jane Austen                    1.0000     1         
+6     To Kill a Mockingbird                              Harper Lee                     3.5000     1         
+7     The Book Thief                                     Markus Zusak                   4.0000     1         
+8     Twilight                                           Stephenie Meyer                5.0000     1         
+9     Animal Farm                                        George Orwell                  3.5000     1         
+10    Ayla: The Daughter of War                          Can Ulkay                      4.0000     1         
+11    The Chronicles of Narnia                           C.S. Lewis                     5.0000     1         
+12    The Fault in Our Stars                             John Green                     3.6667     1         
+13    The Picture of Dorian Gray                         Oscar Wilde                    4.5000     1         
+14    The Giving Tree                                    Shel Silverstein               3.0000     1         
+15    Gone with the Wind                                 Margaret Mitchell              4.0000     1         
+16    The Perks of Being a Wallflower                    Stephen Chbosky                4.0000     1         
+17    The Great Gatsby                                   F. Scott Fitzgerald            4.0000     1         
+18    The Little Prince                                  Antoine                        4.0000     1         
+19    The Da Vinci Code                                  Dan Brown                      4.0000     1         
+20    Gladiator                                          Ridley Scott                   5.0000     1         
+21    Alice’s Adventures in Wonderland                   Lewis Carroll                  3.5000     1         
+22    Crime and Punishment                               Fyodor Dostoevsky              4.0000     1         
+23    Divergent                                          Veronica Roth                  4.0000     1         
+24    Memoirs of a Geisha                                Arthur Golden                  5.0000     1         
+25    Les Miserables                                     Victor Hugo                    3.6667     1         
+26    The Alchemist                                      Paulo Coelho                   4.5000     1         
+27    Lord of the Flies                                  William Golding                3.0000     1         
+28    Romeo and Juliet                                   William Shakespeare            4.0000     1         
+29    Anne of Green Gables                               L.M. Montgomery                4.5000     1         
+30    City of Bones                                      Cassandra Clare                3.6667     1         
+31    The Help                                           Kathryn Stockett               4.5000     1         
+32    Dracula                                            Bram Stoker                    3.0000     1         
+33    Ender’s Game                                       Orson Scott Card               4.0000     1         
+34    Charlotte’s Web                                    E.B. White                     4.0000     1         
+35    Of Mice and Men                                    John Steinbeck                 4.0000     1         
+36    Fahrenheit 451                                     Ray Bradbury                   4.0000     1         
+37    The Catcher in the Rye                             J.D. Salinger                  4.0000     1         
+38    Brave New World                                    Aldous Huxley                  5.0000     1         
+39    A Thousand Splendid Suns                           Khaled Hosseini                3.0000     1         
+40    The Time Traveler’s Wife                           Audrey Niffenegger             4.0000     1         
+41    The Princess Bride                                 William Goldman                4.0000     1         
+42    The Secret Garden                                  Frances Hodgson Burnett        4.0000     1         
+43    A Game of Thrones                                  George R.R. Martin             4.0000     1         
+44    Outsiders                                          S.E. Hinton                    5.0000     1         
+45    Outsiders                                          Stephen King                   3.0000     1         
+46    Little Women                                       Louisa May Alcott              4.0000     1         
+47    Little Women                                       Deanna McFadden                4.0000     1         
+48    1984                                               George Orwell                  5.0000     1         
+49    The Odyssey                                        Homer                          3.6667     1         
+50    The Kite Runner                                    Khaled Hosseini                4.5000     1         
+51    The Giver                                          Lois Lowry                     3.0000     1         
+52    The Lion King                                      Roger Allers                   4.0000     1         
+53    The Handmaid’s Tale                                Margaret Atwood                4.0000     1         
+54    title1                                             author1                        None       1         
+55    title2                                             author2                        None       1         
+56    title3                                             author3                        None       1         
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 8 End-------------
+-------------Test Case 9-------------
+Command    : insert a new user: user1
+Description: insert a new user
+Result     :
+User name: One user successfully inserted
+-------------Test Case 9 End-------------
+-------------Test Case 10-------------
+Command    : insert a new user: user2
+Description: insert a new user
+Result     :
+User name: One user successfully inserted
+-------------Test Case 10 End-------------
+-------------Test Case 11-------------
+Command    : insert a new user: veryveryverylonglong
+Description: insert a very long user
+Result     :
+User name: Username length should range from 1 to 10 characters
+-------------Test Case 11 End-------------
+-------------Test Case 12-------------
+Command    : insert a new user: user3
+Description: insert a new user
+Result     :
+User name: One user successfully inserted
+-------------Test Case 12 End-------------
+-------------Test Case 13-------------
+Command    : print all users
+Description: print all users
+Result     :
+--------------------------------------------------------------------------------------------------------------
+id    name      
+--------------------------------------------------------------------------------------------------------------
+1     Ava       
+2     Mason     
+3     Charlotte 
+4     Sophia    
+5     Emily     
+6     Jacob     
+7     Aria      
+8     Elijah    
+9     Olivia    
+10    Harper    
+11    John      
+12    Wyatt     
+13    Owen      
+14    Mateo     
+15    Ethan     
+16    Ellie     
+17    Noah      
+18    Sebastian 
+19    William   
+20    Daniel    
+21    Abigail   
+22    Mia       
+23    Camila    
+24    Michael   
+25    Samuel    
+26    Layla     
+27    Alexander 
+28    Joseph    
+29    Scarlett  
+30    Nora      
+31    James     
+32    Sofia     
+33    Elizabeth 
+34    Henry     
+35    Emma      
+36    Luna      
+37    Jackson   
+38    Penelope  
+39    Hazel     
+40    Mila      
+41    Evelyn    
+42    Jack      
+43    Madison   
+44    Avery     
+45    Logan     
+46    Eleanor   
+47    Aiden     
+48    user1     
+49    user2     
+50    user3     
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 13 End-------------
+-------------Test Case 14-------------
+Command    : check out a book: 54, 48
+Description: check out a book
+Result     :
+Book ID: User ID: Book successfully checked out
+-------------Test Case 14 End-------------
+-------------Test Case 15-------------
+Command    : check out a book: 123, 48
+Description: check out a non-existing book
+Result     :
+Book ID: User ID: Book 123 does not exist
+-------------Test Case 15 End-------------
+-------------Test Case 16-------------
+Command    : check out a book: 54, 123
+Description: check out a non-existing user
+Result     :
+Book ID: User ID: User 123 does not exist
+-------------Test Case 16 End-------------
+-------------Test Case 17-------------
+Command    : check out a book: 54, 49
+Description: check out a book already checked out
+Result     :
+Book ID: User ID: Cannot check out a book that is currently borrowed
+-------------Test Case 17 End-------------
+-------------Test Case 18-------------
+Command    : check out a book: 55, 48
+Description: check out a 2nd book
+Result     :
+Book ID: User ID: Book successfully checked out
+-------------Test Case 18 End-------------
+-------------Test Case 19-------------
+Command    : check out a book: 56, 48
+Description: check out limit exceeded
+Result     :
+Book ID: User ID: User 48 exceeded the maximum borrowing limit
+-------------Test Case 19 End-------------
+-------------Test Case 20-------------
+Command    : check out a book: 56, 49
+Description: check out a book
+Result     :
+Book ID: User ID: Book successfully checked out
+-------------Test Case 20 End-------------
+-------------Test Case 21-------------
+Command    : print all books
+Description: print all books(check if quantity decreased)
+Result     :
+--------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating quantity  
+--------------------------------------------------------------------------------------------------------------
+1     The Hunger Games 1                                 Suzanne Collins                4.3333     1         
+2     The Hunger Games 2                                 Suzanne Collins                3.0000     1         
+3     Harry Potter and the Deathly Hallows               J.K. Rowling                   4.0000     1         
+4     Harry Potter and the Sorcerer’s Stone              J.K. Rowling                   4.0000     1         
+5     Pride and Prejudice                                Jane Austen                    1.0000     1         
+6     To Kill a Mockingbird                              Harper Lee                     3.5000     1         
+7     The Book Thief                                     Markus Zusak                   4.0000     1         
+8     Twilight                                           Stephenie Meyer                5.0000     1         
+9     Animal Farm                                        George Orwell                  3.5000     1         
+10    Ayla: The Daughter of War                          Can Ulkay                      4.0000     1         
+11    The Chronicles of Narnia                           C.S. Lewis                     5.0000     1         
+12    The Fault in Our Stars                             John Green                     3.6667     1         
+13    The Picture of Dorian Gray                         Oscar Wilde                    4.5000     1         
+14    The Giving Tree                                    Shel Silverstein               3.0000     1         
+15    Gone with the Wind                                 Margaret Mitchell              4.0000     1         
+16    The Perks of Being a Wallflower                    Stephen Chbosky                4.0000     1         
+17    The Great Gatsby                                   F. Scott Fitzgerald            4.0000     1         
+18    The Little Prince                                  Antoine                        4.0000     1         
+19    The Da Vinci Code                                  Dan Brown                      4.0000     1         
+20    Gladiator                                          Ridley Scott                   5.0000     1         
+21    Alice’s Adventures in Wonderland                   Lewis Carroll                  3.5000     1         
+22    Crime and Punishment                               Fyodor Dostoevsky              4.0000     1         
+23    Divergent                                          Veronica Roth                  4.0000     1         
+24    Memoirs of a Geisha                                Arthur Golden                  5.0000     1         
+25    Les Miserables                                     Victor Hugo                    3.6667     1         
+26    The Alchemist                                      Paulo Coelho                   4.5000     1         
+27    Lord of the Flies                                  William Golding                3.0000     1         
+28    Romeo and Juliet                                   William Shakespeare            4.0000     1         
+29    Anne of Green Gables                               L.M. Montgomery                4.5000     1         
+30    City of Bones                                      Cassandra Clare                3.6667     1         
+31    The Help                                           Kathryn Stockett               4.5000     1         
+32    Dracula                                            Bram Stoker                    3.0000     1         
+33    Ender’s Game                                       Orson Scott Card               4.0000     1         
+34    Charlotte’s Web                                    E.B. White                     4.0000     1         
+35    Of Mice and Men                                    John Steinbeck                 4.0000     1         
+36    Fahrenheit 451                                     Ray Bradbury                   4.0000     1         
+37    The Catcher in the Rye                             J.D. Salinger                  4.0000     1         
+38    Brave New World                                    Aldous Huxley                  5.0000     1         
+39    A Thousand Splendid Suns                           Khaled Hosseini                3.0000     1         
+40    The Time Traveler’s Wife                           Audrey Niffenegger             4.0000     1         
+41    The Princess Bride                                 William Goldman                4.0000     1         
+42    The Secret Garden                                  Frances Hodgson Burnett        4.0000     1         
+43    A Game of Thrones                                  George R.R. Martin             4.0000     1         
+44    Outsiders                                          S.E. Hinton                    5.0000     1         
+45    Outsiders                                          Stephen King                   3.0000     1         
+46    Little Women                                       Louisa May Alcott              4.0000     1         
+47    Little Women                                       Deanna McFadden                4.0000     1         
+48    1984                                               George Orwell                  5.0000     1         
+49    The Odyssey                                        Homer                          3.6667     1         
+50    The Kite Runner                                    Khaled Hosseini                4.5000     1         
+51    The Giver                                          Lois Lowry                     3.0000     1         
+52    The Lion King                                      Roger Allers                   4.0000     1         
+53    The Handmaid’s Tale                                Margaret Atwood                4.0000     1         
+54    title1                                             author1                        None       0         
+55    title2                                             author2                        None       0         
+56    title3                                             author3                        None       0         
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 21 End-------------
+-------------Test Case 22-------------
+Command    : return and rate a book: 54, 48, 5
+Description: return and rate a book
+Result     :
+Book ID: User ID: Ratings (1~5): Book successfully returned and rated
+-------------Test Case 22 End-------------
+-------------Test Case 23-------------
+Command    : return and rate a book: 123, 48, 5
+Description: return and rate a non-existing book
+Result     :
+Book ID: User ID: Ratings (1~5): Book 123 does not exist
+-------------Test Case 23 End-------------
+-------------Test Case 24-------------
+Command    : return and rate a book: 54, 123, 5
+Description: return and rate a non-existing user
+Result     :
+Book ID: User ID: Ratings (1~5): User 123 does not exist
+-------------Test Case 24 End-------------
+-------------Test Case 25-------------
+Command    : return and rate a book: 54, 48, 6
+Description: return and rate a book with invalid rating
+Result     :
+Book ID: User ID: Ratings (1~5): Rating should range from 1 to 5.
+-------------Test Case 25 End-------------
+-------------Test Case 26-------------
+Command    : return and rate a book: 55, 50, 3
+Description: return and rate a book not checked out
+Result     :
+Book ID: User ID: Ratings (1~5): Cannot return and rate a book that is not currently borrowed for this user
+-------------Test Case 26 End-------------
+-------------Test Case 27-------------
+Command    : return and rate a book: 54, 48, 5
+Description: return and rate a book not checked out
+Result     :
+Book ID: User ID: Ratings (1~5): Cannot return and rate a book that is not currently borrowed for this user
+-------------Test Case 27 End-------------
+-------------Test Case 28-------------
+Command    : check out a book: 54, 48
+Description: check out a book (again)
+Result     :
+Book ID: User ID: Book successfully checked out
+-------------Test Case 28 End-------------
+-------------Test Case 29-------------
+Command    : return and rate a book: 54, 48, 3
+Description: return and overwrite rating
+Result     :
+Book ID: User ID: Ratings (1~5): Book successfully returned and rated
+-------------Test Case 29 End-------------
+-------------Test Case 30-------------
+Command    : check out a book: 54, 50
+Description: check out a book
+Result     :
+Book ID: User ID: Book successfully checked out
+-------------Test Case 30 End-------------
+-------------Test Case 31-------------
+Command    : return and rate a book: 54, 50, 5
+Description: return and rate a book
+Result     :
+Book ID: User ID: Ratings (1~5): Book successfully returned and rated
+-------------Test Case 31 End-------------
+-------------Test Case 32-------------
+Command    : print all books
+Description: print all books(check if quantity increased and rating updated)
+Result     :
+--------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating quantity  
+--------------------------------------------------------------------------------------------------------------
+1     The Hunger Games 1                                 Suzanne Collins                4.3333     1         
+2     The Hunger Games 2                                 Suzanne Collins                3.0000     1         
+3     Harry Potter and the Deathly Hallows               J.K. Rowling                   4.0000     1         
+4     Harry Potter and the Sorcerer’s Stone              J.K. Rowling                   4.0000     1         
+5     Pride and Prejudice                                Jane Austen                    1.0000     1         
+6     To Kill a Mockingbird                              Harper Lee                     3.5000     1         
+7     The Book Thief                                     Markus Zusak                   4.0000     1         
+8     Twilight                                           Stephenie Meyer                5.0000     1         
+9     Animal Farm                                        George Orwell                  3.5000     1         
+10    Ayla: The Daughter of War                          Can Ulkay                      4.0000     1         
+11    The Chronicles of Narnia                           C.S. Lewis                     5.0000     1         
+12    The Fault in Our Stars                             John Green                     3.6667     1         
+13    The Picture of Dorian Gray                         Oscar Wilde                    4.5000     1         
+14    The Giving Tree                                    Shel Silverstein               3.0000     1         
+15    Gone with the Wind                                 Margaret Mitchell              4.0000     1         
+16    The Perks of Being a Wallflower                    Stephen Chbosky                4.0000     1         
+17    The Great Gatsby                                   F. Scott Fitzgerald            4.0000     1         
+18    The Little Prince                                  Antoine                        4.0000     1         
+19    The Da Vinci Code                                  Dan Brown                      4.0000     1         
+20    Gladiator                                          Ridley Scott                   5.0000     1         
+21    Alice’s Adventures in Wonderland                   Lewis Carroll                  3.5000     1         
+22    Crime and Punishment                               Fyodor Dostoevsky              4.0000     1         
+23    Divergent                                          Veronica Roth                  4.0000     1         
+24    Memoirs of a Geisha                                Arthur Golden                  5.0000     1         
+25    Les Miserables                                     Victor Hugo                    3.6667     1         
+26    The Alchemist                                      Paulo Coelho                   4.5000     1         
+27    Lord of the Flies                                  William Golding                3.0000     1         
+28    Romeo and Juliet                                   William Shakespeare            4.0000     1         
+29    Anne of Green Gables                               L.M. Montgomery                4.5000     1         
+30    City of Bones                                      Cassandra Clare                3.6667     1         
+31    The Help                                           Kathryn Stockett               4.5000     1         
+32    Dracula                                            Bram Stoker                    3.0000     1         
+33    Ender’s Game                                       Orson Scott Card               4.0000     1         
+34    Charlotte’s Web                                    E.B. White                     4.0000     1         
+35    Of Mice and Men                                    John Steinbeck                 4.0000     1         
+36    Fahrenheit 451                                     Ray Bradbury                   4.0000     1         
+37    The Catcher in the Rye                             J.D. Salinger                  4.0000     1         
+38    Brave New World                                    Aldous Huxley                  5.0000     1         
+39    A Thousand Splendid Suns                           Khaled Hosseini                3.0000     1         
+40    The Time Traveler’s Wife                           Audrey Niffenegger             4.0000     1         
+41    The Princess Bride                                 William Goldman                4.0000     1         
+42    The Secret Garden                                  Frances Hodgson Burnett        4.0000     1         
+43    A Game of Thrones                                  George R.R. Martin             4.0000     1         
+44    Outsiders                                          S.E. Hinton                    5.0000     1         
+45    Outsiders                                          Stephen King                   3.0000     1         
+46    Little Women                                       Louisa May Alcott              4.0000     1         
+47    Little Women                                       Deanna McFadden                4.0000     1         
+48    1984                                               George Orwell                  5.0000     1         
+49    The Odyssey                                        Homer                          3.6667     1         
+50    The Kite Runner                                    Khaled Hosseini                4.5000     1         
+51    The Giver                                          Lois Lowry                     3.0000     1         
+52    The Lion King                                      Roger Allers                   4.0000     1         
+53    The Handmaid’s Tale                                Margaret Atwood                4.0000     1         
+54    title1                                             author1                        4.0000     1         
+55    title2                                             author2                        None       0         
+56    title3                                             author3                        None       0         
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 32 End-------------
+-------------Test Case 33-------------
+Command    : check out a book: 54, 49
+Description: check out a book
+Result     :
+Book ID: User ID: Book successfully checked out
+-------------Test Case 33 End-------------
+-------------Test Case 34-------------
+Command    : print borrowing status of a user: 49
+Description: print borrowing status of a user
+Result     :
+User ID: --------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating
+--------------------------------------------------------------------------------------------------------------
+54    title1                                             author1                        4.0000    
+56    title3                                             author3                        None      
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 34 End-------------
+-------------Test Case 35-------------
+Command    : print borrowing status of a user: 123
+Description: print borrowing status of a non-existing user
+Result     :
+User ID: User 123 does not exist
+-------------Test Case 35 End-------------
+-------------Test Case 36-------------
+Command    : search books: title1
+Description: search books
+Result     :
+Query: --------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating quantity  
+--------------------------------------------------------------------------------------------------------------
+54    title1                                             author1                        4.0000     0         
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 36 End-------------
+-------------Test Case 37-------------
+Command    : search books: title
+Description: search books(mutiple results)
+Result     :
+Query: --------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating quantity  
+--------------------------------------------------------------------------------------------------------------
+54    title1                                             author1                        4.0000     0         
+55    title2                                             author2                        None       0         
+56    title3                                             author3                        None       0         
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 37 End-------------
+-------------Test Case 38-------------
+Command    : search books: title123
+Description: search books(no result)
+Result     :
+Query: --------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating quantity  
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 38 End-------------
+-------------Test Case 39-------------
+Command    : search books: TITLE
+Description: search books(case insensitive)
+Result     :
+Query: --------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating quantity  
+--------------------------------------------------------------------------------------------------------------
+54    title1                                             author1                        4.0000     0         
+55    title2                                             author2                        None       0         
+56    title3                                             author3                        None       0         
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 39 End-------------
+-------------Test Case 40-------------
+Command    : recommend a book for a user using popularity-based method: 48
+Description: recommend a book for a user using popularity-based method
+Result     :
+User ID: --------------------------------------------------------------------------------------------------------------
+Rating-based
+--------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating
+--------------------------------------------------------------------------------------------------------------
+8     Twilight                                           Stephenie Meyer                5.0000    
+--------------------------------------------------------------------------------------------------------------
+Popularity-based
+--------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating
+--------------------------------------------------------------------------------------------------------------
+1     The Hunger Games 1                                 Suzanne Collins                4.3333    
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 40 End-------------
+-------------Test Case 41-------------
+Command    : recommend a book for a user using popularity-based method: 123
+Description: recommend a book for a non-existing user using popularity-based method
+Result     :
+User ID: User 123 does not exist
+-------------Test Case 41 End-------------
+-------------Test Case 42-------------
+Command    : recommend a book for a user using user-based collaborative filtering: 48
+Description: recommend a book for a user using user-based collaborative filtering
+Result     :
+User ID: --------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating exp.rating
+--------------------------------------------------------------------------------------------------------------
+31    The Help                                           Kathryn Stockett               4.5000     3.9714972230010566
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 42 End-------------
+-------------Test Case 43-------------
+Command    : recommend a book for a user using user-based collaborative filtering: 123
+Description: recommend a book for a non-existing user using user-based collaborative filtering
+Result     :
+User ID: User 123 does not exist
+-------------Test Case 43 End-------------
+-------------Test Case 44-------------
+Command    : recommend a book for a user using popularity-based method: 1
+Description: recommend a book for a user using popularity-based method
+Result     :
+User ID: --------------------------------------------------------------------------------------------------------------
+Rating-based
+--------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating
+--------------------------------------------------------------------------------------------------------------
+8     Twilight                                           Stephenie Meyer                5.0000    
+--------------------------------------------------------------------------------------------------------------
+Popularity-based
+--------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating
+--------------------------------------------------------------------------------------------------------------
+12    The Fault in Our Stars                             John Green                     3.6667    
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 44 End-------------
+-------------Test Case 45-------------
+Command    : recommend a book for a user using popularity-based method: 2
+Description: recommend a book for a user using popularity-based method
+Result     :
+User ID: --------------------------------------------------------------------------------------------------------------
+Rating-based
+--------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating
+--------------------------------------------------------------------------------------------------------------
+11    The Chronicles of Narnia                           C.S. Lewis                     5.0000    
+--------------------------------------------------------------------------------------------------------------
+Popularity-based
+--------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating
+--------------------------------------------------------------------------------------------------------------
+12    The Fault in Our Stars                             John Green                     3.6667    
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 45 End-------------
+-------------Test Case 46-------------
+Command    : recommend a book for a user using popularity-based method: 3
+Description: recommend a book for a user using popularity-based method
+Result     :
+User ID: --------------------------------------------------------------------------------------------------------------
+Rating-based
+--------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating
+--------------------------------------------------------------------------------------------------------------
+8     Twilight                                           Stephenie Meyer                5.0000    
+--------------------------------------------------------------------------------------------------------------
+Popularity-based
+--------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating
+--------------------------------------------------------------------------------------------------------------
+12    The Fault in Our Stars                             John Green                     3.6667    
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 46 End-------------
+-------------Test Case 47-------------
+Command    : recommend a book for a user using popularity-based method: 4
+Description: recommend a book for a user using popularity-based method
+Result     :
+User ID: --------------------------------------------------------------------------------------------------------------
+Rating-based
+--------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating
+--------------------------------------------------------------------------------------------------------------
+8     Twilight                                           Stephenie Meyer                5.0000    
+--------------------------------------------------------------------------------------------------------------
+Popularity-based
+--------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating
+--------------------------------------------------------------------------------------------------------------
+1     The Hunger Games 1                                 Suzanne Collins                4.3333    
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 47 End-------------
+-------------Test Case 48-------------
+Command    : recommend a book for a user using popularity-based method: 5
+Description: recommend a book for a user using popularity-based method
+Result     :
+User ID: --------------------------------------------------------------------------------------------------------------
+Rating-based
+--------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating
+--------------------------------------------------------------------------------------------------------------
+8     Twilight                                           Stephenie Meyer                5.0000    
+--------------------------------------------------------------------------------------------------------------
+Popularity-based
+--------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating
+--------------------------------------------------------------------------------------------------------------
+1     The Hunger Games 1                                 Suzanne Collins                4.3333    
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 48 End-------------
+-------------Test Case 49-------------
+Command    : recommend a book for a user using user-based collaborative filtering: 10
+Description: recommend a book for a user using user-based collaborative filtering
+Result     :
+User ID: --------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating exp.rating
+--------------------------------------------------------------------------------------------------------------
+31    The Help                                           Kathryn Stockett               4.5000     3.9610638372435254
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 49 End-------------
+-------------Test Case 50-------------
+Command    : recommend a book for a user using user-based collaborative filtering: 20
+Description: recommend a book for a user using user-based collaborative filtering
+Result     :
+User ID: --------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating exp.rating
+--------------------------------------------------------------------------------------------------------------
+31    The Help                                           Kathryn Stockett               4.5000     3.940243213040701
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 50 End-------------
+-------------Test Case 51-------------
+Command    : recommend a book for a user using user-based collaborative filtering: 21
+Description: recommend a book for a user using user-based collaborative filtering
+Result     :
+User ID: --------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating exp.rating
+--------------------------------------------------------------------------------------------------------------
+31    The Help                                           Kathryn Stockett               4.5000     3.9402378444470645
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 51 End-------------
+-------------Test Case 52-------------
+Command    : recommend a book for a user using user-based collaborative filtering: 22
+Description: recommend a book for a user using user-based collaborative filtering
+Result     :
+User ID: --------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating exp.rating
+--------------------------------------------------------------------------------------------------------------
+8     Twilight                                           Stephenie Meyer                5.0000     3.94961994737628
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 52 End-------------
+-------------Test Case 53-------------
+Command    : recommend a book for a user using user-based collaborative filtering: 23
+Description: recommend a book for a user using user-based collaborative filtering
+Result     :
+User ID: --------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating exp.rating
+--------------------------------------------------------------------------------------------------------------
+31    The Help                                           Kathryn Stockett               4.5000     3.9645483254487655
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 53 End-------------
+-------------Test Case 54-------------
+Command    : recommend a book for a user using user-based collaborative filtering: 48
+Description: recommend a book for a user using user-based collaborative filtering
+Result     :
+User ID: --------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating exp.rating
+--------------------------------------------------------------------------------------------------------------
+31    The Help                                           Kathryn Stockett               4.5000     3.9714972230010566
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 54 End-------------
+-------------Test Case 55-------------
+Command    : recommend a book for a user using user-based collaborative filtering: 49
+Description: recommend a book for a user using user-based collaborative filtering
+Result     :
+User ID: --------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating exp.rating
+--------------------------------------------------------------------------------------------------------------
+1     The Hunger Games 1                                 Suzanne Collins                4.3333     0         
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 55 End-------------
+-------------Test Case 56-------------
+Command    : recommend a book for a user using user-based collaborative filtering: 50
+Description: recommend a book for a user using user-based collaborative filtering
+Result     :
+User ID: --------------------------------------------------------------------------------------------------------------
+id    title                                              author                         avg.rating exp.rating
+--------------------------------------------------------------------------------------------------------------
+31    The Help                                           Kathryn Stockett               4.5000     3.9298217822662456
+--------------------------------------------------------------------------------------------------------------
+-------------Test Case 56 End-------------
+-------------Test Case 57-------------
+Command    : insert a new book: title5, author5
+Description: insert a new book
+Result     :
+Book title: Book author: One book successfully inserted
+-------------Test Case 57 End-------------
+-------------Test Case 58-------------
+Command    : remove a book: 57
+Description: remove a book
+Result     :
+Book ID: One book successfully removed
+-------------Test Case 58 End-------------
+-------------Test Case 59-------------
+Command    : remove a book: 57
+Description: remove a non-existing book
+Result     :
+Book ID: Book 57 does not exist
+-------------Test Case 59 End-------------
+-------------Test Case 60-------------
+Command    : remove a book: 123
+Description: remove a non-existing book
+Result     :
+Book ID: Book 123 does not exist
+-------------Test Case 60 End-------------
+-------------Test Case 61-------------
+Command    : remove a book: 55
+Description: remove a checked out book
+Result     :
+Book ID: Cannot delete a book that is currently borrowed
+-------------Test Case 61 End-------------
+-------------Test Case 62-------------
+Command    : return and rate a book: 55, 48, 3
+Description: return and rate a book
+Result     :
+Book ID: User ID: Ratings (1~5): Book successfully returned and rated
+-------------Test Case 62 End-------------
+-------------Test Case 63-------------
+Command    : remove a book: 55
+Description: remove a book returned
+Result     :
+Book ID: One book successfully removed
+-------------Test Case 63 End-------------
+-------------Test Case 64-------------
+Command    : insert a new user: user4
+Description: insert a new user
+Result     :
+User name: One user successfully inserted
+-------------Test Case 64 End-------------
+-------------Test Case 65-------------
+Command    : remove a user: 51
+Description: remove a user
+Result     :
+User ID: One user successfully removed
+-------------Test Case 65 End-------------
+-------------Test Case 66-------------
+Command    : remove a user: 51
+Description: remove a non-existing user
+Result     :
+User ID: User 51 does not exist
+-------------Test Case 66 End-------------
+-------------Test Case 67-------------
+Command    : remove a user: 123
+Description: remove a non-existing user
+Result     :
+User ID: User 123 does not exist
+-------------Test Case 67 End-------------
+-------------Test Case 68-------------
+Command    : remove a user: 49
+Description: remove a user with checked out books
+Result     :
+User ID: Cannot delete a user with borrowed books
+-------------Test Case 68 End-------------
+-------------Test Case 69-------------
+Command    : return and rate a book: 54, 49, 5
+Description: return and rate a book
+Result     :
+Book ID: User ID: Ratings (1~5): Book successfully returned and rated
+-------------Test Case 69 End-------------
+-------------Test Case 70-------------
+Command    : return and rate a book: 56, 49, 5
+Description: return and rate a book
+Result     :
+Book ID: User ID: Ratings (1~5): Book successfully returned and rated
+-------------Test Case 70 End-------------
+-------------Test Case 71-------------
+Command    : remove a user: 49
+Description: remove a user
+Result     :
+User ID: One user successfully removed
+-------------Test Case 71 End-------------
+-------------Test Case 72-------------
+Command    : remove a user: 48
+Description: remove a user
+Result     :
+User ID: One user successfully removed
+-------------Test Case 72 End-------------
+-------------Test Case 73-------------
+Command    : remove a book: 54
+Description: remove a book
+Result     :
+Book ID: One book successfully removed
+-------------Test Case 73 End-------------
+-------------Test Case 74-------------
+Command    : exit
+Description: exit
+Result     :
+Bye!
+-------------Test Case 74 End-------------
